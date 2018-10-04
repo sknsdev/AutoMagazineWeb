@@ -31,3 +31,20 @@ body{
 .rightheadertext a:hover{
   color: #00cccc;
 }
+
+table{
+  width: 500px;
+  margin-left: 15%;
+
+  border: 2px solid #000;
+}
+
+footer {
+  margin-top: 30%;
+  text-align: center;
+}
+
+.cartable img:src{
+  width: 50%;
+  height: 50%;
+}
