@@ -33,10 +33,16 @@ body{
 }
 
 table{
-  width: 500px;
-  margin-left: 15%;
-
+  width: 650px;
+  margin-left: 30%;
+  margin-top: 1000px;
   border: 2px solid #000;
+}
+
+td img{
+  float: left;
+  /*width: 50%;
+  height: 50%;*/
 }
 
 footer {
@@ -44,7 +50,63 @@ footer {
   text-align: center;
 }
 
-.cartable img:src{
-  width: 50%;
-  height: 50%;
+
+.widget {
+  margin-top: 80px;
+	position: fixed;
+  margin-left: 10px;
+	font-size: 1.3em;
+}
+
+.widget li {
+	list-style-type: none;
+  padding: 2px 20px 2px 10px;
+  margin: 1px;
+  cursor: pointer;
+}
+
+.widget a{
+	color:#000;
+	text-decoration: none;
+}
+
+/*.line {
+    border-bottom: 1px groove #333;*/
+
+.widget ul{
+  margin-top:10px;
+  background: rgba(255,255,255,0.3);
+  padding-top: 0px;
+  padding-left: 0px;
+  border: 1px solid #fff;
+  border-radius: 0px;
+  box-shadow: 0px 1px 2px rgba(0,0,0,.5);
+}
+.widget ul li > ul {
+  margin-top:-28px;
+  margin-left: 0px;
+  list-style-type: none;
+  position:absolute;
+  left:100%;
+  display:none;
+  background: #ccc;
+}
+
+.widget ul li > ul > li {
+  padding: 2px 0px 2px 0px;
+  width:100%;
+}
+
+.widget li:hover {
+  background: rgba(0,255,255,0.2);
+}
+
+.widget li:hover ul{
+  width: 100%;
+	display:block;
+}
+
+.mainpage p{
+  margin-left: 40%;
+  
 }
